@@ -1,0 +1,54 @@
+{
+  "reporting_entity_name": "UBH TPA CLAIMS",
+  "reporting_entity_type": "Third-Party Administrator",
+  "plan_name": "ACTIVE-PREMIERE-BH-EAP",
+  "plan_id_type": "EIN",
+  "plan_id": "00000013",
+  "plan_market_type": "group",
+  "out_of_network": [{
+  "name" : "SUBSEQUENT HOSPITAL CARE",
+  "billing_code_type" : "CPT",
+  "billing_code_type_version" : "2023",
+  "billing_code" : "99233",
+  "description" : "SUBSEQUENT HOSPITAL CARE",
+  "allowed_amounts" : [ {
+    "tin" : {
+      "type" : "ein",
+      "value" : "811903406"
+    },
+    "service_code" : [ "51" ],
+    "billing_class" : "professional",
+    "payments" : [ {
+      "allowed_amount" : 168.15,
+      "providers" : [ {
+        "billed_charge" : 390.00,
+        "npi" : [ 1326464462 ]
+      } ]
+    } ]
+  } ]
+},
+{
+  "name" : "SUBSEQUENT HOSPITAL CARE",
+  "billing_code_type" : "CPT",
+  "billing_code_type_version" : "2023",
+  "billing_code" : "99233",
+  "description" : "SUBSEQUENT HOSPITAL CARE",
+  "allowed_amounts" : [ {
+    "tin" : {
+      "type" : "ein",
+      "value" : "811903406"
+    },
+    "service_code" : [ "51" ],
+    "billing_class" : "professional",
+    "payments" : [ {
+      "allowed_amount" : 168.15,
+      "providers" : [ {
+        "billed_charge" : 390.00,
+        "npi" : [ 1326464462 ]
+      } ]
+    } ]
+  } ]
+}],
+  "last_updated_on": "2024-03-01",
+  "version": "1.0.0"
+}
